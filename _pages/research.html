@@ -5,21 +5,35 @@ permalink: /research/
 author_profile: true
 ---
 
-## Peer-Reviewed Publications
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
 
+{% include base_path %}
 
-## Working Papers
+<!-- Peer-Reviewed Publications -->
+<h2>Peer-Reviewed Publications</h2>
+<hr />
+{% for post in site.publications reversed %}
+  {% if post.category == "peer-reviewed" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
-#1. **"Land Use Regulation and Housing Supply"** (with Jane Doe)  
-#   *Revise and resubmit*, Journal of Urban Economics.  
-#   [PDF](/files/land_use.pdf)
+<!-- Working Papers -->
+<h2>Working Papers</h2>
+<hr />
+{% for post in site.publications reversed %}
+  {% if post.category == "working-paper" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
-#2. **"Environmental Conservation and Property Values"**  
-#   Working paper, 2025.  
-#   [PDF](/files/conservation.pdf)
-
-## Work in Progress
-
-- **"Community-Facing Agricultural Conservation Efforts and Residential Property Values: Evidence from Wisconsin (Tentative Title),” (with Jeffrey Hadachek and Wendong Zhang)
-- **“The Local Economic Consequences of Groundwater Regulation: Housing, Farms, and Labor under SGMA (Tentative Title),” (with Jeffrey Hadachek)
-
+<!-- Work in Progress -->
+<h2>Work in Progress</h2>
+<hr />
+{% for post in site.publications reversed %}
+  {% if post.category == "wip" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
