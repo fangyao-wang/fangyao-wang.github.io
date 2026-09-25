@@ -18,8 +18,8 @@ Broadly, I study how institutions of environmental and agricultural policy—suc
 My current research is organized around two distinct but related fronts:
 
 1. Causal Inference: Institutions of Environmental and Agricultural Policies
-- The effect of a community-facing voluntary agricultural conservation (PLWG) on residential property values in Wisconsin (with Jeffrey Hadachek and Wendong Zhang)
-- The Local Economic Consequences of Groundwater Regulation: Housing, Farms, and Labor under California's SGMA (with Jeffrey Hadachek)
+- The effect of a community-facing voluntary agricultural conservation ([PLWG](https://datcp.wi.gov/pages/programs_services/producerledprojects.aspx)) on residential property values in Wisconsin (with Jeffrey Hadachek and Wendong Zhang)
+- The Local Economic Consequences of Groundwater Regulation: Housing, Farms, and Labor under California's [SGMA](https://water.ca.gov/programs/groundwater-management/sgma-groundwater-management) (with Jeffrey Hadachek)
 
 2. Non-Market Valuation and Urban Economics
 - Local Amenities and Regional Recreation: An Integrated Recreation-Hedonic Model of Open Space Valuation
