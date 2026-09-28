@@ -83,8 +83,8 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  peer-reviewed:
-    title: 'Peer-Reviewed Publications'
+  #peer-reviewed:
+  #  title: 'Peer-Reviewed Publications'
   working-paper:
     title: 'Working Papers'
   wip:
